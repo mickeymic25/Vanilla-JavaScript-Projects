@@ -1,0 +1,30 @@
+html {
+  background-image: url("/images/drum\ kit\ background.jpg");
+  background-size: cover;
+  background-position: center;
+
+  /*height: 100%;
+  width: 100%;*/
+}
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 200px;
+}
+
+.all_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.btn {
+  border: 8px solid black;
+  padding: 50px;
+  opacity: 0.8;
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-color: yellow;
+}
